@@ -1,1 +1,12 @@
-# smart-warehouse-delay-prediction
+## smart-warehouse-delay-prediction
+# 스마트 창고 출고 지연 예측 AI
+
+> 평가 지표 : MAE
+
+> 주제 : 스마트 물류창고 운영 데이터를 기반으로 향후 30분간의 평균 출고 지연 시간(분)을 예측하는 모델 개발
+
+## 데이터 구조
+
+| train.csv | 250,000 | 94 | 학습 데이터
+| test.csv | 50,000 | 93 | 평가 데이터 |
+| layout_info.csv | 300 | 15 | 창고 레이아웃 보조 정보
