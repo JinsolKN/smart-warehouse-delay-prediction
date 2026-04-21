@@ -10,3 +10,7 @@
 2026-04-20 | LGBM Baseline | MAE : OOF MAE: 9.3545 | LB MAE : 19.5082787403 | GroupKFold 5 | without layout.csv | add lag cols del binary cols
 
 2026-04-20 | LGBM Baseline | MAE : OOF MAE: 9.3545 | LB MAE : 10.9548411426 | GroupKFold 5 | without layout.csv | sort id
+
+2026-04-20 | LGBM Baseline | MAE : OOF MAE: 9.3546 | LB MAE : 10.9625592135 | GroupKFold 5 | without layout.csv | add : demand_robot_tension, late_high_demand, no_idle_order_pressure, charging_under_demand
+
+
