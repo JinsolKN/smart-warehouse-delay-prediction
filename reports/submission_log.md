@@ -6,3 +6,5 @@
 2026-04-20 | LGBM Baseline | MAE : OOF MAE: 9.4232 | LB MAE : 11.034487169 | GroupKFold 5 | without layout.csv | timeslot, .fillna(-999)
 
 2026-04-20 | LGBM Baseline | MAE : OOF MAE: 9.4232 | LB MAE : 11.034487169 | GroupKFold 5 | without layout.csv | add binary cols
+
+2026-04-20 | LGBM Baseline | MAE : OOF MAE: 9.3545 | LB MAE : 19.5082787403 | GroupKFold 5 | without layout.csv | add lag cols del binary cols
