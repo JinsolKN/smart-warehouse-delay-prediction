@@ -14,3 +14,4 @@
 2026-04-20 | LGBM Baseline | MAE : OOF MAE: 9.3546 | LB MAE : 10.9625592135 | GroupKFold 5 | without layout.csv | add : demand_robot_tension, late_high_demand, no_idle_order_pressure, charging_under_demand
 
 
+2026-04-21 | LGBM Baseline | MAE : Train MAE: 8.5688 | OOF MAE : 9.1479 | LB MAE : 10.617288922 | GroupKFold 5 | Feature derivation and additions focused on layout correlations
