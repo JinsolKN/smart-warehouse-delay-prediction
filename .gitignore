@@ -1,13 +1,8 @@
-
-# 데이터 파일
-data/
-
-# 제외할 EDA 파일
-smart_warehouse_eda (1).html
-smart_warehouse_full_eda.ipynb
-github_push.ipynb
-
-# 기타
 __pycache__/
-*.pyc
 .ipynb_checkpoints/
+*.pyc
+.venv/
+.env
+.DS_Store
+outputs/
+data/raw/
