@@ -27,7 +27,7 @@ def configure_import_paths(extra_path=None) -> None:
 
 
 def ensure_raw_data_paths() -> None:
-    """필수 대회 데이터 파일이 없으면 실행 초기에 명확히 실패시킵니다."""
+    """필수 대회 데이터 파일이 없으면 실행을 중단합니다."""
     required = [TRAIN_PATH, TEST_PATH, LAYOUT_PATH, SAMPLE_SUBMISSION_PATH]
     missing = [str(path.relative_to(ROOT)) for path in required if not path.exists()]
     if missing:
